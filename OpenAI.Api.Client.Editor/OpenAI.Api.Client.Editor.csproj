@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\OpenAI.Api.Client.Models\OpenAI.Api.Client.Models.csproj" />
+      <ProjectReference Include="..\OpenAI.Api.Client.Usages\OpenAI.Api.Client.Usages.csproj" />
+      <ProjectReference Include="..\OpenAI.Api.Client\OpenAI.Api.Client.csproj" />
+      <ProjectReference Include="..\OpenAI.Api.Exceptions\OpenAI.Api.Exceptions.csproj" />
+    </ItemGroup>
+
+</Project>

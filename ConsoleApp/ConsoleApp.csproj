@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\OpenAI.Api.Client.Chats\OpenAI.Api.Client.Chats.csproj" />
+      <ProjectReference Include="..\OpenAI.Api.Client.Completions\OpenAI.Api.Client.Completions.csproj" />
+      <ProjectReference Include="..\OpenAI.Api.Client.Editor\OpenAI.Api.Client.Editor.csproj" />
+      <ProjectReference Include="..\OpenAI.Api.Client.ImageGenerator\OpenAI.Api.Client.ImageGenerator.csproj" />
+      <ProjectReference Include="..\OpenAI.Api.Client.Models\OpenAI.Api.Client.Models.csproj" />
+      <ProjectReference Include="..\OpenAI.Api.Client\OpenAI.Api.Client.csproj" />
+    </ItemGroup>
+
+</Project>

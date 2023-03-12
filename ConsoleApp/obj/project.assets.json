@@ -1,0 +1,295 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OpenAI.Api.Client/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "OpenAI.Api.Client.Usages": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OpenAI.Api.Client.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OpenAI.Api.Client.dll": {}
+        }
+      },
+      "OpenAI.Api.Client.Chats/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "OpenAI.Api.Client": "1.0.0",
+          "OpenAI.Api.Client.Models": "1.0.0",
+          "OpenAI.Api.Client.Usages": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OpenAI.Api.Client.Chats.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OpenAI.Api.Client.Chats.dll": {}
+        }
+      },
+      "OpenAI.Api.Client.Completions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "OpenAI.Api.Client": "1.0.0",
+          "OpenAI.Api.Client.Models": "1.0.0",
+          "OpenAI.Api.Client.Usages": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OpenAI.Api.Client.Completions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OpenAI.Api.Client.Completions.dll": {}
+        }
+      },
+      "OpenAI.Api.Client.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "OpenAI.Api.Client": "1.0.0",
+          "OpenAI.Api.Client.Models": "1.0.0",
+          "OpenAI.Api.Client.Usages": "1.0.0",
+          "OpenAI.Api.Exceptions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OpenAI.Api.Client.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OpenAI.Api.Client.Editor.dll": {}
+        }
+      },
+      "OpenAI.Api.Client.ImageGenerator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "OpenAI.Api.Client": "1.0.0",
+          "OpenAI.Api.Exceptions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OpenAI.Api.Client.ImageGenerator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OpenAI.Api.Client.ImageGenerator.dll": {}
+        }
+      },
+      "OpenAI.Api.Client.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "OpenAI.Api.Client": "1.0.0",
+          "OpenAI.Api.Exceptions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OpenAI.Api.Client.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OpenAI.Api.Client.Models.dll": {}
+        }
+      },
+      "OpenAI.Api.Client.Usages/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/OpenAI.Api.Client.Usages.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OpenAI.Api.Client.Usages.dll": {}
+        }
+      },
+      "OpenAI.Api.Exceptions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/OpenAI.Api.Exceptions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OpenAI.Api.Exceptions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "OpenAI.Api.Client/1.0.0": {
+      "type": "project",
+      "path": "../OpenAI.Api.Client/OpenAI.Api.Client.csproj",
+      "msbuildProject": "../OpenAI.Api.Client/OpenAI.Api.Client.csproj"
+    },
+    "OpenAI.Api.Client.Chats/1.0.0": {
+      "type": "project",
+      "path": "../OpenAI.Api.Client.Chats/OpenAI.Api.Client.Chats.csproj",
+      "msbuildProject": "../OpenAI.Api.Client.Chats/OpenAI.Api.Client.Chats.csproj"
+    },
+    "OpenAI.Api.Client.Completions/1.0.0": {
+      "type": "project",
+      "path": "../OpenAI.Api.Client.Completions/OpenAI.Api.Client.Completions.csproj",
+      "msbuildProject": "../OpenAI.Api.Client.Completions/OpenAI.Api.Client.Completions.csproj"
+    },
+    "OpenAI.Api.Client.Editor/1.0.0": {
+      "type": "project",
+      "path": "../OpenAI.Api.Client.Editor/OpenAI.Api.Client.Editor.csproj",
+      "msbuildProject": "../OpenAI.Api.Client.Editor/OpenAI.Api.Client.Editor.csproj"
+    },
+    "OpenAI.Api.Client.ImageGenerator/1.0.0": {
+      "type": "project",
+      "path": "../OpenAI.Api.Client.ImageGenerator/OpenAI.Api.Client.ImageGenerator.csproj",
+      "msbuildProject": "../OpenAI.Api.Client.ImageGenerator/OpenAI.Api.Client.ImageGenerator.csproj"
+    },
+    "OpenAI.Api.Client.Models/1.0.0": {
+      "type": "project",
+      "path": "../OpenAI.Api.Client.Models/OpenAI.Api.Client.Models.csproj",
+      "msbuildProject": "../OpenAI.Api.Client.Models/OpenAI.Api.Client.Models.csproj"
+    },
+    "OpenAI.Api.Client.Usages/1.0.0": {
+      "type": "project",
+      "path": "../OpenAI.Api.Client.Usages/OpenAI.Api.Client.Usages.csproj",
+      "msbuildProject": "../OpenAI.Api.Client.Usages/OpenAI.Api.Client.Usages.csproj"
+    },
+    "OpenAI.Api.Exceptions/1.0.0": {
+      "type": "project",
+      "path": "../OpenAI.Api.Exceptions/OpenAI.Api.Exceptions.csproj",
+      "msbuildProject": "../OpenAI.Api.Exceptions/OpenAI.Api.Exceptions.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "OpenAI.Api.Client >= 1.0.0",
+      "OpenAI.Api.Client.Chats >= 1.0.0",
+      "OpenAI.Api.Client.Completions >= 1.0.0",
+      "OpenAI.Api.Client.Editor >= 1.0.0",
+      "OpenAI.Api.Client.ImageGenerator >= 1.0.0",
+      "OpenAI.Api.Client.Models >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Yarik\\.nuget\\packages\\": {},
+    "G:\\Мої програми\\MVS\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\ConsoleApp\\ConsoleApp.csproj",
+      "projectName": "ConsoleApp",
+      "projectPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\ConsoleApp\\ConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\Yarik\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\ConsoleApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "G:\\Мої програми\\MVS\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Yarik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Chats\\OpenAI.Api.Client.Chats.csproj": {
+              "projectPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Chats\\OpenAI.Api.Client.Chats.csproj"
+            },
+            "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Completions\\OpenAI.Api.Client.Completions.csproj": {
+              "projectPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Completions\\OpenAI.Api.Client.Completions.csproj"
+            },
+            "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Editor\\OpenAI.Api.Client.Editor.csproj": {
+              "projectPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Editor\\OpenAI.Api.Client.Editor.csproj"
+            },
+            "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.ImageGenerator\\OpenAI.Api.Client.ImageGenerator.csproj": {
+              "projectPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.ImageGenerator\\OpenAI.Api.Client.ImageGenerator.csproj"
+            },
+            "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Models\\OpenAI.Api.Client.Models.csproj": {
+              "projectPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Models\\OpenAI.Api.Client.Models.csproj"
+            },
+            "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client\\OpenAI.Api.Client.csproj": {
+              "projectPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client\\OpenAI.Api.Client.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

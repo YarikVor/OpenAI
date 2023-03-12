@@ -1,0 +1,15 @@
+C:\Users\Yarik\RiderProjects\OpenAI.Api.Client\OpenAI.Api.Client\obj\Debug\net7.0\OpenAI.Api.Client.csproj.AssemblyReference.cache
+C:\Users\Yarik\RiderProjects\OpenAI.Api.Client\OpenAI.Api.Client\obj\Debug\net7.0\OpenAI.Api.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yarik\RiderProjects\OpenAI.Api.Client\OpenAI.Api.Client\obj\Debug\net7.0\OpenAI.Api.Client.AssemblyInfoInputs.cache
+C:\Users\Yarik\RiderProjects\OpenAI.Api.Client\OpenAI.Api.Client\obj\Debug\net7.0\OpenAI.Api.Client.AssemblyInfo.cs
+C:\Users\Yarik\RiderProjects\OpenAI.Api.Client\OpenAI.Api.Client\obj\Debug\net7.0\OpenAI.Api.Client.csproj.CoreCompileInputs.cache
+C:\Users\Yarik\RiderProjects\OpenAI.Api.Client\OpenAI.Api.Client\bin\Debug\net7.0\OpenAI.Api.Client.deps.json
+C:\Users\Yarik\RiderProjects\OpenAI.Api.Client\OpenAI.Api.Client\bin\Debug\net7.0\OpenAI.Api.Client.dll
+C:\Users\Yarik\RiderProjects\OpenAI.Api.Client\OpenAI.Api.Client\bin\Debug\net7.0\OpenAI.Api.Client.pdb
+C:\Users\Yarik\RiderProjects\OpenAI.Api.Client\OpenAI.Api.Client\obj\Debug\net7.0\OpenAI.Api.Client.dll
+C:\Users\Yarik\RiderProjects\OpenAI.Api.Client\OpenAI.Api.Client\obj\Debug\net7.0\refint\OpenAI.Api.Client.dll
+C:\Users\Yarik\RiderProjects\OpenAI.Api.Client\OpenAI.Api.Client\obj\Debug\net7.0\OpenAI.Api.Client.pdb
+C:\Users\Yarik\RiderProjects\OpenAI.Api.Client\OpenAI.Api.Client\obj\Debug\net7.0\ref\OpenAI.Api.Client.dll
+C:\Users\Yarik\RiderProjects\OpenAI.Api.Client\OpenAI.Api.Client\bin\Debug\net7.0\OpenAI.Api.Client.Usages.dll
+C:\Users\Yarik\RiderProjects\OpenAI.Api.Client\OpenAI.Api.Client\bin\Debug\net7.0\OpenAI.Api.Client.Usages.pdb
+C:\Users\Yarik\RiderProjects\OpenAI.Api.Client\OpenAI.Api.Client\obj\Debug\net7.0\OpenAI.Api.Client.csproj.CopyComplete

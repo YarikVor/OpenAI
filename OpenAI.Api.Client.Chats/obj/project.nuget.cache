@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9qhXp5C7VySbgF1YK1bEGGCZdd8Znyw6bzmaOEq/agt+LwKd+LZT+X4ltLJhw8UyClcpKDUKliIr0mX6VZaLOg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Chats\\OpenAI.Api.Client.Chats.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yarik\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,335 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Chats\\OpenAI.Api.Client.Chats.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Chats\\OpenAI.Api.Client.Chats.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Chats\\OpenAI.Api.Client.Chats.csproj",
+        "projectName": "OpenAI.Api.Client.Chats",
+        "projectPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Chats\\OpenAI.Api.Client.Chats.csproj",
+        "packagesPath": "C:\\Users\\Yarik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Chats\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "G:\\Мої програми\\MVS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Yarik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Models\\OpenAI.Api.Client.Models.csproj": {
+                "projectPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Models\\OpenAI.Api.Client.Models.csproj"
+              },
+              "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Usages\\OpenAI.Api.Client.Usages.csproj": {
+                "projectPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Usages\\OpenAI.Api.Client.Usages.csproj"
+              },
+              "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client\\OpenAI.Api.Client.csproj": {
+                "projectPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client\\OpenAI.Api.Client.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Models\\OpenAI.Api.Client.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Models\\OpenAI.Api.Client.Models.csproj",
+        "projectName": "OpenAI.Api.Client.Models",
+        "projectPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Models\\OpenAI.Api.Client.Models.csproj",
+        "packagesPath": "C:\\Users\\Yarik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "G:\\Мої програми\\MVS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Yarik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client\\OpenAI.Api.Client.csproj": {
+                "projectPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client\\OpenAI.Api.Client.csproj"
+              },
+              "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Exceptions\\OpenAI.Api.Exceptions.csproj": {
+                "projectPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Exceptions\\OpenAI.Api.Exceptions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Usages\\OpenAI.Api.Client.Usages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Usages\\OpenAI.Api.Client.Usages.csproj",
+        "projectName": "OpenAI.Api.Client.Usages",
+        "projectPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Usages\\OpenAI.Api.Client.Usages.csproj",
+        "packagesPath": "C:\\Users\\Yarik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Usages\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "G:\\Мої програми\\MVS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Yarik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client\\OpenAI.Api.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client\\OpenAI.Api.Client.csproj",
+        "projectName": "OpenAI.Api.Client",
+        "projectPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client\\OpenAI.Api.Client.csproj",
+        "packagesPath": "C:\\Users\\Yarik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "G:\\Мої програми\\MVS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Yarik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Usages\\OpenAI.Api.Client.Usages.csproj": {
+                "projectPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Client.Usages\\OpenAI.Api.Client.Usages.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Exceptions\\OpenAI.Api.Exceptions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Exceptions\\OpenAI.Api.Exceptions.csproj",
+        "projectName": "OpenAI.Api.Exceptions",
+        "projectPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Exceptions\\OpenAI.Api.Exceptions.csproj",
+        "packagesPath": "C:\\Users\\Yarik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yarik\\RiderProjects\\OpenAI.Api.Client\\OpenAI.Api.Exceptions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "G:\\Мої програми\\MVS\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Yarik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
