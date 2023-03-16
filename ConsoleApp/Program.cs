@@ -13,7 +13,7 @@ using OpenAI.Api.Client.ImageGenerator;
 
 Console.InputEncoding = Console.OutputEncoding = Encoding.Unicode;
 
-const string API_KEY = "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";
+const string API_KEY = "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";
 
 OpenAIClient client = OpenAIClient.Create(API_KEY);
 
@@ -30,6 +30,6 @@ while (true)
 
     var result = await chat.AddMessage(inputText).Send();
     
-    Console.WriteLine($"[assistant]: {result.Choices[0].Message}");
+    Console.WriteLine($"[assistant]: {result.Choices[0].Message.Content}");
 }
 
